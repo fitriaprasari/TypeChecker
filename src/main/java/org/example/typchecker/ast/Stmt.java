@@ -1,4 +1,7 @@
 package org.example.typchecker.ast;
 
-public class Stmt {
+import org.example.typchecker.ast.ASTNode;
+
+public interface Stmt extends ASTNode {
+    void accept(org.example.typchecker.semantic.TypeChecker checker);
 }

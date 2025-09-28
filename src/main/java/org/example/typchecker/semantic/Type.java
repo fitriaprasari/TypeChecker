@@ -1,4 +1,5 @@
 package org.example.typchecker.semantic;
 
-public class Type {
+public enum Type {
+    INT, BOOL, ERROR
 }
